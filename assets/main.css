@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    color: #fff;
+    margin: 100px 0 0 0;
+    justify-content: space-between;
+}
+.main-left h3{
+    width: 208px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.main-left h2{
+    width: 475px;
+    height: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+}
+
+.main-left .main-description{
+    width: 475px;
+    height: 83px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.main-buttons{
+    display: flex;
+    margin: 30px 0;
+}
+.main a{
+    text-decoration: none;
+}
+.btn-download-cv{
+    display: flex;
+    padding: 12px 25px;
+    color: white;
+    background: #038C7F;
+    border: 1px solid #038C7F;
+    border-radius: 8px;
+    align-items: center;
+    margin: 0 26px 0 0;
+    cursor: pointer;
+    font-weight: 400;
+}
+.btn-download-cv img{
+    margin: 0 0 2px 6px;    
+}
+.btn-projetos{
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 34px;
+    gap: 5px;
+    border: 2px solid #038C7F;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+/*VECTOR ANIMADO - MAIN*/ 
+
+.main-img-hero{
+    transform:  translatey(0px);
+    animation: flutuar 2s ease-in-out infinite;
+}
+@keyframes flutuar{
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-30px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+
+/*FIM DA MAIN HERO*/
+.main-end{
+    background-color: #012626;
+    width: 100%;
+    height: 128px;
+    margin: 15px 0 50px 0;
+}

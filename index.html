@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/LOGO.svg"image/x-icon">
+
+    <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/footer.css">
+
+    <title>PORTFOLIO | OSWALDO MAURICIO</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+        body{
+            background-color: #01403A;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 1360px;
+            max-height: 100vh;
+            padding: 0 130px;
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+        ::selection{
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="container">
+            <div class="header">
+                <h2>Oswaldo Mauricio</h2>
+                <nav class="nav-header">
+                    <a href="#">Inicio</a>
+                    <a href="#">Sobre mim</a>
+                    <a href="#">Projetos</a>
+                    <a href="#">Contato</a>
+                </nav>
+            </div>
+    </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="main">
+                <div class="main-left">
+                    <h3>Olá, eu sou o</h3>
+                    <h2>Oswaldo Mauricio</h2>
+                    <p class="main-description">Sou estudante de sistema de informação em busca de uma oportunidade no mercado de trabalho. Veja abaixo minhas competencias.</p>
+                    <div class="main-buttons">
+                        <a href="Cv-Oswaldo-Mauricio-Santos-de-Assis.pdf" download>
+                            <button type="submit" class="btn-download-cv" id="btn-download-cv">
+                                <p>Download CV</p>
+                                <img src="imgs/main/main-hero/ph_download.svg" alt="">
+                            </button>
+                        </a>
+                        <button type="submit" class="btn-projetos" id="btn-projetos" onclick="projetos()">
+                                <p>Projetos</p>
+                                <img src="imgs/main/main-hero/eye.svg" alt="olhos para ir ao Projetos">
+                        </button>
+                    </div>
+                </div>
+                <img class="main-img-hero" src="imgs/main/main-hero/hero.svg" alt="">
+            </section>
+        </div>
+        <section class="main-end">
+        </section>
+    </main>
+    
+    
+
+    <script src="assets/index.js"></script>
+</body>
+</html>
