@@ -112,6 +112,7 @@
     line-height: 32px;
     text-align: justify;
     color: #FFFFFF;
+    margin: 0 0 40px 0;
 }
 .main-competencias h2{
     font-family: 'Poppins';
@@ -129,4 +130,121 @@
     line-height: 32px;
     text-align: justify;
     color: #FFFFFF;
+}
+
+
+/*BOTAO DE COMPETENCIAS*/
+.competencias-section{
+    display: grid;
+    grid-template-columns: 3fr 3fr 0fr;
+    margin: 40px 0 100px 0;
+}
+.card-competencias-section{
+    width: 256px;
+    height: 256px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #01443e, #013a34);
+    box-shadow:  5px 5px 10px #01211e,
+                -5px -5px 10px #015f56;
+}
+.card-competencias-section:hover{
+    transition: 0.8s;
+    background-color: #038C7F;
+    border: none;
+    border-radius: 20px;
+    background: #01403A;
+    box-shadow: inset 5px 5px 8px #01211e,
+                inset -5px -5px 8px #015f56;
+                
+}
+
+.card-competencias-section img{
+    display: flex;
+    align-items: start;
+    margin: 0 0 0 28px;
+}
+.designer h2{
+    width: 116px;
+    height: 77px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    align-content: start;
+    color: #FFFFFF;
+    text-align: start;
+    margin: 10px 0 0 28px;
+}
+.desenvolvimento-web h2{
+    width: 231px;
+    height: 77px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: start;
+    margin: 10px 0 0 13px;
+}
+.excel h2{
+    width: 133px;
+    height: 77px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: start;
+    margin: 10px 0 0 28px;
+}
+
+/*cards de servicos*/
+.card-design{
+    display: grid;
+    grid-template-columns: 2fr 2fr 0fr;
+    gap: 22px;
+}
+.card-servicos-design{
+    display: flex;
+    flex-direction: column;
+    width: 341px;
+    height: 338px;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    align-items: center;
+    text-align: justify;
+}
+.card-servicos-design:hover{
+    transition: 0.5s;
+    border: 3px solid #038C7F;
+}
+article img{
+    width: 60px;
+    height: 60px;
+    margin: 70px 0 5px 0;
+}
+article h2{
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 185%;
+}
+article p{
+    width: 350px;
+    padding: 0 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 15px 0 0 0;
 }

@@ -30,7 +30,7 @@
             padding: 0
         }
         ::selection{
-            background: green;
+            background: #038C7F;
         }
     </style>
 </head>
@@ -40,8 +40,8 @@
             <div class="header">
                 <h2>Oswaldo Mauricio</h2>
                 <nav class="nav-header">
-                    <a href="#">Inicio</a>
-                    <a href="#">Sobre mim</a>
+                    <a href="#main-sobre-mim">Sobre mim</a>
+                    <a href="#main-competencias">Competências</a>
                     <a href="#">Projetos</a>
                     <a href="#">Contato</a>
                 </nav>
@@ -74,15 +74,59 @@
         <section class="main-end">
         </section>
         <div class="container">
-            <div class="main-sobre-mim">
+            <div class="main-sobre-mim" id="main-sobre-mim">
                 <h2>Sobre mim:</h2>
                 <p>Estou em busca de uma oportunidade no mercado de trabalho na área de Desenvolvimento de Aplicações. Possuo experiência na área administrativa, especialmente em emissão de nota fiscal, criação de planilhas altamente eficazes e etc. Acredito que essas habilidades podem ser úteis em um ambiente de trabalho de desenvolvimento de aplicações e estou animado para colocá-las em prática.</p>
             </div>
-            <div class="main-competencias">
+            <div class="main-competencias" id="main-competencias">
                 <h2>Competências:</h2>
                 <p>Abaixo, veja as minhas principais competências. Estou buscando cada vez mais aprimorar meus conhecimentos na área de desenvolvimento.</p>
             </div>
         </div>
+         
+        <!--COMPETENCIAS E PROJETOS-->           
+        <div class="container">
+            <section class="competencias-section">
+
+                <button class="designer card-competencias-section">
+                    <img src="imgs/main/main-competencias/card-designer/ux-logo.svg" alt="logo de designer" width="42" height="42">
+                    <h2>UI & UX DESIGNER</h2>
+                </button>
+                <button class="desenvolvimento-web card-competencias-section">
+                    <img src="imgs/main/main-competencias/card-desenvolvedor/code.svg" alt="logo de desenvolvimento web" width="42" height="42">
+                    <h2>DESENVOLVIMENTO WEB</h2>
+                </button>
+            
+                <button class="excel card-competencias-section">
+                    <img src="imgs/main/main-competencias/card-excel/EXCEL.svg" alt="logo de EXCEL" width="42" height="42">
+                    <h2>POWER BI E EXCEL</h2>
+                </button>
+            </section>
+            
+            <!--cards de servicos-->
+            <section class="card-design">
+
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-designer/figma-logo.svg" alt="logo do figma">
+                    <h2 class="title-design" id="title-design">FIGMA</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">Eu utilizo o figma para criar e prototipar as paginas web.</p>
+                </article>
+
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-designer/photoshop-logo.svg" alt="logo do photoshop">
+                    <h2 class="title-design" id="title-design">PHOTOSHOP</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">Eu utilizo o photoshop para manipulação de imagens, criação de banner e artes decorativas e etc.</p>
+                </article>
+
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-designer/canvas-logo.svg" alt="logo do figma">
+                    <h2 class="title-design" id="title-design">CANVAS</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">O canvas serve também para as criações de banners e artes para redes socias, apresentações de slides e etc.</p>
+                </article>
+    
+            </section>
+        </div>
+
     </main>
     
     
