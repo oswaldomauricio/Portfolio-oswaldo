@@ -94,3 +94,39 @@
     height: 128px;
     margin: 15px 0 50px 0;
 }
+
+/*Sobre mim and competencias*/
+.main-sobre-mim h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #038C7F;
+}
+.main-sobre-mim p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.main-competencias h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #038C7F;
+}
+.main-competencias p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    color: #FFFFFF;
+}
