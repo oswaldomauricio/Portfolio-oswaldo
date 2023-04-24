@@ -88,27 +88,32 @@
         <div class="container">
             <section class="competencias-section">
 
-                <button class="designer card-competencias-section">
+                <button class="designer card-competencias-section" onclick="designer()" id="designer">
                     <img src="imgs/main/main-competencias/card-designer/ux-logo.svg" alt="logo de designer" width="42" height="42">
                     <h2>UI & UX DESIGNER</h2>
                 </button>
-                <button class="desenvolvimento-web card-competencias-section">
+
+                <button class="desenvolvimento-web card-competencias-section" onclick="desenvolvimento_web()" id="desenvolvimento-web">
                     <img src="imgs/main/main-competencias/card-desenvolvedor/code.svg" alt="logo de desenvolvimento web" width="42" height="42">
                     <h2>DESENVOLVIMENTO WEB</h2>
                 </button>
             
-                <button class="excel card-competencias-section">
+                <button class="excel card-competencias-section" onclick="excel()" id="excel">
                     <img src="imgs/main/main-competencias/card-excel/EXCEL.svg" alt="logo de EXCEL" width="42" height="42">
                     <h2>POWER BI E EXCEL</h2>
                 </button>
             </section>
             
             <!--cards de servicos-->
-            <section class="card-design">
+
+                <!--designer-->
+            <section class="card-design" id="card-design">
 
                 <article class="card-servicos-design" id="card-servicos-design">
                     <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-designer/figma-logo.svg" alt="logo do figma">
+
                     <h2 class="title-design" id="title-design">FIGMA</h2>
+
                     <p class="paragrafo-design" id="paragrafo-design">Eu utilizo o figma para criar e prototipar as paginas web.</p>
                 </article>
 
@@ -123,8 +128,64 @@
                     <h2 class="title-design" id="title-design">CANVAS</h2>
                     <p class="paragrafo-design" id="paragrafo-design">O canvas serve também para as criações de banners e artes para redes socias, apresentações de slides e etc.</p>
                 </article>
-    
             </section>
+
+            <!--Desenvolvimento web-->
+            <section class="desenvolvimento-web-card" id="desenvolvimento-web-card">
+
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-desenvolvedor/code.svg" alt="logo do html">
+                    <h2 class="title-design" id="title-design">HTML</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">Utilizado para fazer as marcações dos conteúdos dos websites.</p>
+                </article>
+
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-desenvolvedor/ruler&pen.svg" alt="logo do css">
+                    <h2 class="title-design" id="title-design">CSS</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">utilizado para a estilização e decorações do site em conjunto com o HTML.</p>
+                </article>
+                
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-desenvolvedor/javascript.svg" alt="logo do javascript">
+                    <h2 class="title-design" id="title-design">JavaScript</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">utilizado para criar interações do usuário  com os conteúdos  nas paginas.</p>
+                </article>
+                
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-desenvolvedor/git-repo.svg" alt="logo do figma">
+                    <h2 class="title-design" id="title-design">Git e GitHub</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">Para versionamento, utilizo como principal ferramenta o GIT e GitHub.</p>
+                </article>
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-desenvolvedor/android.svg" alt="logo do figma">
+                    <h2 class="title-design" id="title-design">WORDPRESS</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">eu utilizo o WORDPRESS para projetos que não iram necessitar de uma linguagem de programação.</p>
+                </article>
+            </section>
+
+            <!--EXCEL CARD-->
+            <section class="excel-card" id="excel-card">
+
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-excel/EXCEL.svg" alt="logo do figma">
+                    <h2 class="title-design" id="title-design">EXCEL</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">Possuo habilidades de Excel avançado, e ja trabalhei como instrutor de informática em 2020 na prepara cursos.</p>
+                </article>
+
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-excel/code.svg" alt="logo do figma">
+                    <h2 class="title-design" id="title-design">POWER BI</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">utilizo o POWER BI para criação de dashboards e analise de dados.</p>
+                </article>
+                
+                <article class="card-servicos-design" id="card-servicos-design">
+                    <img class="img-design" id="img-design" src="imgs/main/main-competencias/card-excel/Vector.svg" alt="logo do figma">
+                    <h2 class="title-design" id="title-design">SISTEMAS ERP</h2>
+                    <p class="paragrafo-design" id="paragrafo-design">Tenho experiência no sistema de ERP Vellit, e tenho interesse em aprender a utilizar outros sistemas.</p>
+                </article>
+                
+            </section>
+
         </div>
 
     </main>

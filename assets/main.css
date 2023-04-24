@@ -206,8 +206,21 @@
 /*cards de servicos*/
 .card-design{
     display: grid;
-    grid-template-columns: 2fr 2fr 0fr;
-    gap: 22px;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 15px;
+    margin: 0 0 60px 0;
+}
+.desenvolvimento-web-card{
+    display: none ;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 15px;
+    margin: 0 0 60px 0;
+}
+.excel-card{
+    display: none;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 15px;
+    margin: 0 0 60px 0;
 }
 .card-servicos-design{
     display: flex;
@@ -220,8 +233,10 @@
     text-align: justify;
 }
 .card-servicos-design:hover{
-    transition: 0.5s;
+    transition: 0.2s;
     border: 3px solid #038C7F;
+    box-shadow:  5px 5px 10px #01211e,
+                -5px -5px 10px #015f56;
 }
 article img{
     width: 60px;
@@ -248,3 +263,4 @@ article p{
     color: #FFFFFF;
     margin: 15px 0 0 0;
 }
+
