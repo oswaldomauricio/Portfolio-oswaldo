@@ -104,6 +104,14 @@
 }
 
 /*Sobre mim and competencias*/
+.main-sobre-mim-perfil{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.main-sobre-mim-perfil img{
+    background: url(oswalddddo-edit.png);
+    border-radius: 50px;    
+}
 .main-sobre-mim h2{
     font-family: 'Poppins';
     font-style: normal;
@@ -112,6 +120,7 @@
     line-height: 48px;
     color: #038C7F;
 }
+
 .main-sobre-mim p{
     font-family: 'Poppins';
     font-style: normal;
@@ -121,6 +130,9 @@
     text-align: justify;
     color: #FFFFFF;
     margin: 0 0 40px 0;
+    width: 477px;
+    height: 288px;
+    margin: 25px 0 0 0;
 }
 .main-competencias h2{
     font-family: 'Poppins';
