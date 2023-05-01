@@ -134,6 +134,9 @@
     height: 288px;
     margin: 25px 0 0 0;
 }
+.main-competencias{
+    margin: 30px 0 0 0;
+}
 .main-competencias h2{
     font-family: 'Poppins';
     font-style: normal;
@@ -154,10 +157,13 @@
 
 
 /*BOTAO DE COMPETENCIAS*/
+.competencias{
+    margin: 580px 0;
+}
 .competencias-section{
     display: grid;
     grid-template-columns: 3fr 3fr 0fr;
-    margin: 40px 0 100px 0;
+    margin: 60px 0;
 }
 .card-competencias-section{
     width: 256px;
@@ -284,3 +290,74 @@ article p{
     margin: 15px 0 0 0;
 }
 
+/*Formaçoes academicas*/
+.formacao-main h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #038C7F;
+}
+.formacao-main-sobre p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+
+.formacao-main-envelopar{
+    position: absolute;
+}
+.formacao-main-linha-1,.formacao-main-linha-2, .formacao-main-linha-3,.formacao-main-linha-4{
+    position: relative;
+    width: 86px;
+    height: 0px;
+    left: -28px;
+    top: 65px;
+    border: 2px solid #012626;
+    transform: rotate(89.71deg);
+}
+.formacao-main-bola-1, .formacao-main-bola-2, .formacao-main-bola-3, .formacao-main-bola-4{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 25px;
+    border: 4px solid #012626;
+    border-radius: 100%;
+}
+
+.formacao-main-cursos{
+    padding: 15px 0 0 60px;
+}
+.formacao-main-cursos h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 48px;
+    color: #FFFFFF; 
+}
+
+.formacao-main-cursos p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.formacao-main-cursos li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
